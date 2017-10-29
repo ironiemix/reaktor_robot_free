@@ -1,11 +1,8 @@
 Ein kleines Roboter-Szenario inspiriert von Karel The Robot und verändert von Thomas Kempe & David Tepaße
 (Informatik 1 - Softwareentwicklung mit Greenfoot und BlueJ, Schöningh-Verlag)
 
-Das ReaktorRobot-Szenario basiert auf dem Roboter-Szenarion vom Schöningh-Verlag.
-
-Wir haben die Zusage bekommen dieses Szenario weiter zu verwenden, „wenn das veränderte Szenario dieses Bandes ausschließlich für interne Zwecke eingesetzt wird [...]. Abgedeckt wäre davon z.B. auch das Einstellen in ein internes Schulnetzwerk oder der Download von einem geschützten Server.“ (Hanno Vienken, Mitarbeiter beim Schöningh-Verlag am 23.03.2016)
-Dafür danken wir dem Schöningh-Verlag und weisen alle Nutzer auf die Einhaltung der Einschränkungen bei der Weitergabe des Szenarios hin.
-
+Das ReaktorRobot-Szenario basiert auf dem Roboter-Szenario vom Schöningh-Verlag.
+Alle Grafiken stamen aus freien Quellen, insbesondere http://www.openclipart.com
 
 In diesem Szenario können verschiedene Roboter (Unterklassen von Roboter) erzeugt werden.
 Mit Hilfe einiger Sensoren können diese Roboter auch komplexe Aufgaben erledigen.
@@ -30,7 +27,4 @@ Folgende Objekte mit ihren Eigenschaften und Fähigkeiten existieren darin:
 9) Über Leveltests kommt man jeweils in ein weiteres Level
 10) ...
 
-Dieses Szenario wurde für eine Lehrerfortbildung entwickelt.
-
-Karlsruhe, den 14.09.2016
-Thomas Schaller und Dirk Zechnall
+Dieses Szenario wurde von Thomas Schaller und Dirk Zechnall für eine Lehrerfortbildung entwickelt.
