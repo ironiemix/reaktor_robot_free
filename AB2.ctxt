@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AB2
+comment1.params=
+comment1.target=void\ dreheRunde()
+comment1.text=\#\n\ Aufgabe\ 3\:\ Diese\ Anweisungen\ stimmen\ noch\ nicht\ wirklich\n\ Verbessere\ und\ Ergaenze.\n
+comment2.params=
+comment2.target=void\ dreheUm()
+comment2.text=\#\n\ Aufgabe\ 4\:\ Drehe\ um\n
+comment3.params=
+comment3.target=void\ sammle3()
+comment3.text=\#\n\ Aufgabe\ 5\:\ Sammle\ Schrauben\n
+comment4.params=
+comment4.target=void\ einsatz2()
+comment4.text=\#\n\ Einsatz\ 2\:\ Bitte\ den\ Namen\ "einsatz2"\ nicht\ aendern\!\n
+numComments=5

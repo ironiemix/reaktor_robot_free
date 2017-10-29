@@ -1,0 +1,11 @@
+Greenfoot run started: Sat Sep 24 09:50:49 CEST 2016
+Greenfoot version: 2.4.1
+Java version 1.8.0_05
+Virtual machine: Java HotSpot(TM) 64-Bit Server VM 25.5-b02 (Oracle Corporation)
+Running on: Windows 8.1 6.3 (amd64)
+Java Home: C:\Program Files\Java\jdk1.8.0_05\jre
+----
+Opening project: F:\Informatik\Fortbildung Jahreskurs\Greenfoot\01_ReaktorRobot_korrigiert\3_Vorlagen_Tauschordner\ReaktorRobot_Szenario_Roh
+1474703451834: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

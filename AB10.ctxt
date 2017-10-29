@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=AB10
+comment1.params=
+comment1.target=void\ rundeDrehen()
+comment1.text=\#\n\ Aufgaben\ 1,\ 2\ und\ 3\:\ Patrouille\n
+comment2.params=anz
+comment2.target=void\ dreheAnzahlRunden(int)
+comment2.text=\#\n\ Aufgabe\ 4\:\ Zu\ Befehl\!\n
+comment3.params=
+comment3.target=void\ drehwurm()
+comment3.text=\#\n\ Aufgabe\ 5\:\ Drehwurm\n
+comment4.params=x
+comment4.target=void\ mirWirdsGanzSchwindlig(int)
+comment5.params=
+comment5.target=void\ gehe3Schritte()
+comment5.text=\#\n\ Aufgabe\ 6\:\ Hartes\ Training\n
+comment6.params=anz
+comment6.target=void\ geheSchritte(int)
+comment7.params=breite\ hoehe
+comment7.target=void\ legeRechteck(int,\ int)
+comment7.text=\#\n\ Aufgabe\ 7\:\ Der\ letzte\ Einsatz\ naht\!\n
+comment8.params=hoehe
+comment8.target=void\ legeRaute(int)
+comment9.params=
+comment9.target=void\ einsatz10()
+comment9.text=\#\n\ Einsatz\ 10\:\ Bitte\ Namen\ nicht\ aendern\!\n
+numComments=10

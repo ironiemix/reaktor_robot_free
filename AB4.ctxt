@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=AB4
+comment1.params=
+comment1.target=void\ tausche()
+comment1.text=\ \n\ Der\ Roboter\ tauscht\ aus.\ Wo\ eine\ Schraube\ liegt,\ hebt\ er\ sie\ auf.\n\ Wo\ keine\ liegt,\ legt\ er\ eine\ ab,\ wenn\ er\ noch\ Schrauben\ \n\ in\ seinem\ Vorrat\ hat.\n
+comment2.params=
+comment2.target=void\ tauscheUndVor()
+comment2.text=\ \n\ Der\ Roboter\ macht\ mehrere\ Dinge.\ Beschreibe\ in\ diesem\ Kommentar\:\n\ \n
+comment3.params=
+comment3.target=void\ tauscheBisWand()
+comment3.text=\#\n\ Aufgabe\ 2\:\ Tausche\ die\ Schraubenreihe\ bis\ zur\ Wand\n
+comment4.params=
+comment4.target=void\ laufeBisWand()
+comment4.text=\#\n\ Hilfsmethode\ fuer\ Aufgabe\ 9\n
+comment5.params=
+comment5.target=void\ einsatz4()
+comment5.text=\#\n\ Einsatz\ 4\:\ Bitte\ den\ Namen\ nicht\ aendern\!\n
+numComments=6

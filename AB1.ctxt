@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=AB1
+comment0.text=\n\ Die\ Klasse\ AB1\ ist\ eine\ Unterklasse\ von\ Roboter.\n\ Sie\ erbt\ damit\ alle\ Attribute\ und\ Methoden\ der\ Klasse\ Roboter.\n
+comment1.params=
+comment1.target=void\ einsVor()
+comment10.params=
+comment10.target=void\ benutzeAkku()
+comment2.params=
+comment2.target=void\ dreheRechts()
+comment3.params=
+comment3.target=void\ dreheLinks()
+comment4.params=
+comment4.target=void\ schraubeAufnehmen()
+comment5.params=
+comment5.target=void\ schraubeAblegen()
+comment6.params=
+comment6.target=int\ getAnzahlSchrauben()
+comment7.params=
+comment7.target=boolean\ istAufSchraube()
+comment8.params=
+comment8.target=boolean\ istVorratLeer()
+comment9.params=
+comment9.target=void\ akkuAufnehmen()
+numComments=11

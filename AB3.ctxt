@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=AB3
+comment1.params=
+comment1.target=void\ loesche()
+comment1.text=\#\n\ Aufgabe\ 1\:\ Feuer\ loeschen\n
+comment2.params=
+comment2.target=void\ vorBisFeuer()
+comment2.text=\#\n\ Aufgaben\ 3\ &\ 4\:\ Vor\ bis\ zum\ Feuer\ (wo\ auch\ immer\ das\ ist)\n
+comment3.params=
+comment3.target=void\ sammleLoescher()
+comment3.text=\#\n\ Aufgabe\ 7\:\ Feuerloescher\ einsammeln\n
+comment4.params=
+comment4.target=void\ laufeBisWand()
+comment4.text=\#\n\ Hilfsmethode\ fuer\ Aufgabe\ 8\n
+comment5.params=
+comment5.target=void\ laufeBisPortal()
+comment5.text=\#\n\ Aufgabe\ 8\:\ Homerun\n
+comment6.params=
+comment6.target=void\ einsatz3()
+comment6.text=\#\n\ Einsatz\ 3\:\ Bitte\ den\ Namen\ nicht\ aendern\!\n
+numComments=7

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=EinsatzLeiter
+comment1.params=bx\ by\ sx\ sy
+comment1.target=void\ holeBombeUndSprenge(int,\ int,\ int,\ int)
+comment1.text=\#\n\ Aufgabe\ 8\ und\ 9\:\ Anweisung\ 1\n\ Hier\ werden\ Methoden\ am\ sprengRoboter1\ aufgerufen.\n\ Tipp\:\ Schreibe\ sprengRoboter1.\ und\ druecke\ STRG+Leertaste\ -->\ Schau\ mal,\ welche\ Methoden\ du\ alle\ zur\ Verfuegung\ hast\ ...\n
+comment2.params=bx\ by\ sx\ sy
+comment2.target=void\ holeBombeSprengeLegeAb(int,\ int,\ int,\ int)
+comment2.text=\#\n\ Aufgabe\ 10\:\ Anweisung\ 2\n
+comment3.params=
+comment3.target=void\ einsatz9()
+comment3.text=\#\n\ Einsatz\ 9\:\n
+comment4.params=
+comment4.target=void\ nehmeKontaktAuf()
+comment4.text=\#\n\ -------------------------------------------------------------------\n\ Bitte\ so\ lassen\ -\ diese\ Methode\ wird\ nur\ von\ euren\ Lehrer\ verwendet\n
+numComments=5

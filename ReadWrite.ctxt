@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=ReadWrite
+comment0.text=\n\ Die\ Klasse\ ReadWrite\ erstellt\ geheimCodes\ und\ steuert\ damit\ den\ Ablauf\n\ und\ die\ Reihenfolge\ der\ Einsaetze\n
+comment1.params=
+comment1.target=ReadWrite()
+comment1.text=\ Erzeugt\ neues\ Dateizugriffsobjekt\n
+comment10.params=text
+comment10.target=boolean\ append(java.lang.String)
+comment10.text=\ H\u00E4ngt\ eine\ Zeile\ an\ die\ Secret-Datei\ an\n\ @param\ text\ anzuh\u00E4ngende\ Zeile\n
+comment2.params=level
+comment2.target=void\ writeLevel(int)
+comment2.text=\ Schreibt\ einen\ neuen\ Levelstand\ in\ die\ Datei,\ wenn\ dieser\ h\u00F6her\ als\ der\ bisherige\ ist\n\ (dies\ verhindert\ ein\ Zur\u00FCckfallen\ auf\ ein\ niedrigeres\ Level,\ wenn\ ein\ Einsatz\ erneut\ ausgef\u00FChrt\ wird.)\n\ @param\ level\ neuer\ Level\n
+comment3.params=level\ down
+comment3.target=void\ writeLevel(int,\ boolean)
+comment3.text=\ Schreibt\ einen\ neuen\ Levelstand\ in\ die\ Datei.\ \n\ @param\ level\ neuer\ Level\n\ @param\ down\ \ darf\ der\ neue\ Level\ auch\ niedriger\ als\ der\ alte\ sein\ (true\ \=\ gezieltes\ Zur\u00FCcksetzen)\n
+comment4.params=
+comment4.target=void\ init()
+comment4.text=\ Erzeugt\ eine\ neue\ Secret-Datei\ mit\ Level\ 1\n
+comment5.params=
+comment5.target=int\ getLevel()
+comment5.text=\ Liefert\ den\ zuletzt\ gespeicherten\ Level\n\ @return\ Level\n
+comment6.params=
+comment6.target=int\ getMaxLevel()
+comment6.text=\ Liefert\ den\ h\u00F6chsten\ bisher\ gespeicherten\ Level\n\ @return\ maximal\ erreichter\ Level\n
+comment7.params=
+comment7.target=java.lang.String\ read()
+comment7.text=\ Liest\ die\ erste\ Zeile\ aus\ der\ Secretdatei\n\ @return\ erste\ Zeile\n
+comment8.params=
+comment8.target=java.lang.String\ readLastLine()
+comment8.text=\ Liest\ die\ letzte\ Zeile\ aus\ der\ Secretdatei\n\ @return\ letzte\ Zeile\n
+comment9.params=text
+comment9.target=boolean\ write(java.lang.String)
+comment9.text=\ Schreibt\ eine\ neue\ Datei\ mit\ einer\ Zeile\n\ @param\ text\ 1.\ Zeile\ der\ Datei\n
+numComments=11

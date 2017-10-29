@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AB9
+comment1.params=xPos\ yPos
+comment1.target=void\ holeBombeUndKehreZurueck(int,\ int)
+comment1.text=\#\n\ Aufgabe\ 4\:\ Bombe\ sichern\n
+comment2.params=xPos\ yPos
+comment2.target=void\ sprenge(int,\ int)
+comment2.text=\#\n\ Aufgabe\ 5\:\ Sprengkommando\n
+comment3.params=startX\ startY
+comment3.target=void\ legeQuadratUndSammleBatterie(int,\ int)
+comment3.text=\#\n\ Aufgabe\ 9\:\ Die\ Methode\ legeQuadratUndSammleBatterie\n
+comment4.params=name
+comment4.target=void\ ablegen(java.lang.String)
+comment4.text=\n\ Die\ Methode\ ablegen\ veranlasst\ den\ Roboter\ einen\ Gegenstand,\n\ dessen\ Name\ als\ Parameter\ angegeben\ wird,\ abzulegen.\n\ \n\ @param\ \ \ name\ \ \ \ Der\ Name\ des\ abzulegenden\ Gegenstands\n
+numComments=5

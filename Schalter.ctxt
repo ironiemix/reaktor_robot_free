@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Schalter
+comment0.text=\n\ Die\ Klasse\ Schalter\ ist\ eine\ Hilfsklasse\ f\u00FCr\ die\ Schl\u00F6sser\ und\ Schalthebel\ \n\ Sie\ hat\ zwei\ zweidimensionale\ Arrays,\ die\ f\u00FCr\ den\ Schalterzustand\ on\ bzw.\ off\n\ festlegen,\ wie\ ein\ Bereich\ der\ Welt\ aussehen\ soll.\ startx\ und\ starty\ speichern\n\ die\ linke\ obere\ Ecke\ dieses\ Bereichs.\n
+comment1.params=w
+comment1.target=Schalter(greenfoot.World)
+comment1.text=\ Der\ Konstruktor\ erstellt\ einen\ neuen\ Schalter\n\ @param\ w\ Die\ Welt,\ die\ manipuliert\ werden\ soll\n
+comment2.params=backg
+comment2.target=void\ setze(int[][])
+comment2.text=\ Die\ Methode\ setze\ ver\u00E4ndert\ die\ Welt\ entsprechend\ den\ Vorgaben\n\ von\ backg.\ Dabei\ werden\ alle\ Objekte\ in\ diesem\ Bereich\ entfernt\ \n\ (au\u00DFer\ den\ Robotern)\ und\ gegen\ neue\ Objekte\ ausgetauscht.\n\ @param\ backg\ Zweidimensionales\ Array,\ das\ die\ neuen\ Actors\ f\u00FCr\ den\ Bereich\ festlegt.\n
+comment3.params=
+comment3.target=void\ anschalten()
+comment3.text=\ Setzt\ den\ Schalterzustand\ auf\ on\n
+comment4.params=
+comment4.target=void\ ausschalten()
+comment4.text=\ Setzt\ den\ Schalterzustand\ auf\ off\n
+comment5.params=
+comment5.target=void\ umschalten()
+comment5.text=\ Schaltet\ den\ Schalter\ um,\ d.h.\ von\ on\ auf\ off\ oder\ umgekehrt\n
+comment6.params=x\ y\ on\ off
+comment6.target=void\ setPosition(int,\ int,\ int[][],\ int[][])
+comment6.text=\ Legt\ fest,\ wie\ der\ Schalter\ die\ Welt\ ver\u00E4ndern\ soll.\n\ @param\ x\ Koordinate\ der\ linke\ oberen\ Ecke\ des\ zu\ ver\u00E4ndernden\ Bereichs\n\ @param\ y\ Koordinate\ der\ linke\ oberen\ Ecke\ des\ zu\ ver\u00E4ndernden\ Bereichs\n\ @param\ on\ Zweidimensionales\ Array\ zu\ Festlegung,\ wie\ der\ Bereich\ bei\ angeschaltetem\ Schalter\ ausssehen\ soll\n\ @param\ off\ Zweidimensionales\ Array\ zu\ Festlegung,\ wie\ der\ Bereich\ bei\ ausgeschaltetem\ Schalter\ ausssehen\ soll\n
+comment7.params=
+comment7.target=boolean\ getAn()
+comment7.text=\ Liefert\ den\ Schalterzustand\n\ @return\ true,\ wenn\ der\ Schalter\ an\ ist,\ sonst\ false\n
+numComments=8
