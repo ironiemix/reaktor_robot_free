@@ -1,6 +1,6 @@
 import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.awt.Color;
-import java.awt.Font;
+
+
 import java.util.*;
 import javax.swing.JOptionPane;
 
@@ -637,7 +637,7 @@ public class Roboter extends Actor
         this.getImage().fillRect(x, y, breite, hoehe);
         this.getImage().setColor(Color.BLACK);
         this.getImage().drawRect(x, y, breite, hoehe);
-        this.getImage().setFont(new Font("Arial",Font.PLAIN,10));
+        this.getImage().setFont(new Font("Arial",10));
         String ziffern;
         int anz = inventar.size();
         if (anz>=0 && anz<10) ziffern="0"+anz;

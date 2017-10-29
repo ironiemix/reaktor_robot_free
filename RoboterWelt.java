@@ -1,6 +1,6 @@
 import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.awt.Color;
-import java.awt.Font;
+
+
 import java.util.Random;
 import java.util.List;
 import javax.swing.JOptionPane;
@@ -87,7 +87,7 @@ public class RoboterWelt extends World
         this.getBackground().setColor(Color.LIGHT_GRAY);
         this.getBackground().fillRect(0,0,300,20);
         this.getBackground().setColor(Color.BLACK);
-        this.getBackground().setFont(new Font("Verdana",Font.BOLD,12));
+        this.getBackground().setFont(new Font("Verdana",12));
         this.getBackground().drawString(text, 2, 14);
     }
 
@@ -154,7 +154,7 @@ public class RoboterWelt extends World
         for (int x=0; x<getWidth(); x++){
             for (int y=0; y<getHeight(); y++){
                 this.getBackground().setColor(Color.BLACK);
-                this.getBackground().setFont(new Font("Verdana",Font.PLAIN,12));
+                this.getBackground().setFont(new Font("Verdana",12));
                 if (x>9 || y>9) {
                     delta = 4;
                     if (x>9 && y>9) delta = 8;
