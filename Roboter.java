@@ -1,6 +1,5 @@
 import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
 import java.util.*;
 import javax.swing.JOptionPane;
 
@@ -17,6 +16,7 @@ public class Roboter extends Actor
     private int energie; //Energie in Prozent
     private ArrayList<Gegenstand> inventar;
     private GreenfootImage originalImage;
+    private GreenfootImage[] batterybar;
 
     /**
      * Ein Objekt der Klasse Roboter wird exempliert bzw. instanziert.
@@ -655,9 +655,44 @@ public class Roboter extends Actor
      */
     private void zeichneEnergie()
     {
-        final int x=2;
-        final int y=1;
-        final int breite = 4;
+        final int hoehe = 47;
+        batterybar = new GreenfootImage[4];
+        batterybar[0] = new GreenfootImage("images/batterybargrey.png");
+        batterybar[1] = new GreenfootImage("images/batterybargreen.png");
+        batterybar[2] = new GreenfootImage("images/batterybaryellow.png");
+        batterybar[3] = new GreenfootImage("images/batterybarred.png");
+
+        this.getImage().setColor(Color.GRAY);
+        this.getImage().fillRect(0, 1, 6, hoehe+3);
+        
+        for (int i=47; i>0 ;i=i-3) {        
+            this.getImage().drawImage(batterybar[0], 1, i);
+        }
+        
+        
+        
+        int hoeheNeu = hoehe-(int)(Math.floor(hoehe*(energie/100.0)));
+        
+        if (energie <= 30) {
+            for (int i=47; i>hoeheNeu; i=i-3) {
+                this.getImage().drawImage(batterybar[3], 1, i);
+            } 
+        }
+        if (energie > 30) {
+            for (int i=47; i>hoeheNeu; i=i-3) {
+                this.getImage().drawImage(batterybar[2], 1, i);
+            } 
+        }
+        if (energie > 60) { 
+            for (int i=47; i>hoeheNeu; i=i-3) {
+                this.getImage().drawImage(batterybar[1], 1, i);
+            }
+        } 
+
+        /*
+        final int x=0;
+        final int y=0;
+        final int breite = 6;
         final int hoehe = 46;
         this.getImage().setColor(Color.GREEN);
         this.getImage().fillRect(x, y, breite, hoehe);
@@ -667,6 +702,7 @@ public class Roboter extends Actor
         this.getImage().setColor(Color.BLACK);
         this.getImage().drawRect(x, y, breite, hoehe);
         this.getImage().drawRect(x, y, breite, hoehe/2);
+         */
     }
 
     // Meldungen und Warnungen
